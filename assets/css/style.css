@@ -1492,8 +1492,8 @@ textarea:focus {
 .account-curr-lang-wrap ul li a img {
     margin-right: 6px;
     margin-top: -3px;
-    width:16px;
-    height:11px;
+    width: 16px;
+    height: 11px;
 }
 .account-curr-lang-wrap ul li ul {
     background: #fff none repeat scroll 0 0;
@@ -1528,6 +1528,8 @@ textarea:focus {
 }
 .account-curr-lang-wrap ul li ul li a img {
     margin-right: 5px;
+    width: 16px;
+    height: 11px;
 }
 .account-curr-lang-wrap ul li ul li:hover > a {
     color: #7e4c4f;
@@ -1624,7 +1626,7 @@ textarea:focus {
     display: inline-block;
     float: left;
     padding-left: 30px;
-    width: 25%;
+    width: 50%;
 }
 .main-menu ul li ul>li.mega-menu-title {
     color: #333333;
@@ -2465,6 +2467,7 @@ h4.footer-title {
     color: #6c6c6c;
     font-size: 14px;
     margin: 0;
+    margin-bottom: 15px;
 }
 .newsletter-wrapper>p a {
     color: #7e4c4f;
@@ -2778,7 +2781,7 @@ input.cart-plus-minus-box {
 }
 .single-food-category-2 > h3 {
     color: #000101;
-    font-size: 30px;
+    font-size: 17px;
     left: 0;
     margin: 0;
     position: absolute;
@@ -3671,6 +3674,8 @@ input.cart-plus-minus-box {
 }
 .table-content table td.product-thumbnail a img {
     padding-left: 20px;
+    width: 180px;
+    height: 164px;
 }
 .table-content table td.product-name {
     width: 345px;
@@ -4714,4 +4719,15 @@ blockquote.importent-title {
 }
 .blog-dec-tags ul li:last-child::after {
     display: none;
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    logo{
+        padding: 37px 0;
+    }
+}
+
+.single-food-hover img{
+    width: 300px;
+    height: 300px;
 }
