@@ -1492,6 +1492,8 @@ textarea:focus {
 .account-curr-lang-wrap ul li a img {
     margin-right: 6px;
     margin-top: -3px;
+    width:16px;
+    height:11px;
 }
 .account-curr-lang-wrap ul li ul {
     background: #fff none repeat scroll 0 0;
